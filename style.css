@@ -1,0 +1,177 @@
+
+/*general styling for the site*/
+body{
+	font-family:Helvetica;
+	font-size: 22px;
+	color:seashell;
+	opacity:0.9;
+	margin:0px;
+	padding:0px;	
+	background-color:black;
+}
+a{
+	color:seashell;
+}
+
+/*Nav bar styling*/
+nav{
+margin:0px;
+height:69px;
+border-bottom:1px solid seashell;
+
+/*This wasn't specified but the navigation looked bad
+at a certain size if this wasn't implemented */
+min-width: 600px;
+
+position: fixed;
+top:0;
+width:100%;
+background-color:black;
+}
+
+nav img{
+	padding:10px;
+	height:50px;
+	margin:auto;
+
+}
+
+nav p{
+	display:inline;
+	float:right;
+	margin:9px 9px;
+	padding:10px;
+}
+
+/*Starts css for mission area*/
+#mission{
+	/*Supposed to be 700px but doesn't format properly*/
+	height:400px;
+	width:1200px;
+
+	margin:70px auto 0 auto;
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+	background-repeat:no-repeat;
+	text-align: center;
+	padding-top: 303.4px;
+	overflow:hidden;
+}
+
+#missionStatement{
+	background-color:black;
+	 width:100%;
+ 	 margin:0px;
+ 	 padding:10px;
+}
+
+#missionStatement h2{
+	margin:0px;
+}
+
+#missionStatement h4 {
+	margin:0px;
+	margin-top:10px;
+}
+
+/*starts css for Tea of the month area*/
+
+#teaOfTheMonth{
+ width:1000px;
+ margin:auto;
+}
+
+#monthHeading{
+	text-align:center;
+}
+
+.container1 img{
+	width:300px;
+
+}
+
+.container2 img{
+	width:300px;
+
+}
+.container1 {
+	vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+}
+.container2 {
+	vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+}
+.container1:nth-child(3){
+	margin:0px 42px;
+}
+
+.container2:nth-child(odd){
+	margin:10px 21px 10px 160px;
+}
+.container2:nth-child(even){
+	margin:10px 160px 10px 21px;
+}
+.caption{
+	display:block;
+	margin:10px 0;
+}
+
+/*Starts the styling of the locations section*/
+#location{
+	height:500px;
+	width:1200px;
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+	background-repeat: no-repeat;
+    margin:auto;
+
+}    
+
+
+#locationHeading{
+	padding-top:75px;
+	padding-bottom:15px;
+	text-align:center;
+}
+
+
+.container3{
+	vertical-align: top;
+    display: inline-block;
+    text-align: center;
+	background-color:black;
+	width:300px;
+	text-align:center;
+	padding:5px 0px;
+	opacity:1.0;
+}
+
+.container3:nth-child(2){
+	margin:0px 0px 0px 110px;
+}
+
+/*40px overall with blackspace*/
+.container3:nth-child(3){
+	margin:0px 35px 0px 35px;
+}
+
+/*starts styling for the contact information areaw*/
+
+#contactInfo{
+	height:200px;
+	margin:auto;
+	text-align:center;
+}
+
+#contactInfo h2{
+	margin-top:15px;
+}
+
+/*styles the copyright*/
+#copyright{
+	text-align:left;
+	margin:0 0 0 20px;
+}
